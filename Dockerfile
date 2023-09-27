@@ -1,4 +1,4 @@
-FROM node:16-alpine3.17 AS builder-frontend
+FROM node:18-alpine3.17 AS builder-frontend
 WORKDIR /src
 COPY betanin_client/ .
 RUN npm install && \
